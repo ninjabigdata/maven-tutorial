@@ -9,8 +9,12 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <encode.format>UTF-8</encode.format>
+        <project.build.sourceEncoding>${encode.format}</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>${encode.format}</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
 </project>
